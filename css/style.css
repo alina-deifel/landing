@@ -1,0 +1,94 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/img.css");
+@import url("components/lists.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+#intro{
+  margin-bottom: 40px;
+}
+
+#recruiting{
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
+#social-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#social-section h2{
+  align-content: center;
+}
+
+
+
+
+
+
+.gallery {
+  width: 20em;
+  height: 15em;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media (min-width: 40em)  { 
+.gallery {
+  width: 40em;
+  height: 30em;
+}
+}
+
+@media (max-width: 60em)  { 
+.gallery {
+  width: 60em;
+  height: 45em;
+}
+}
+  
+#gallery {
+      width: 700px;
+      overflow: hidden;
+      position: relative;
+      z-index: 1;
+      margin: 100px auto;
+      border: 2px solid #003C72;
+      }
+
+      #navigation li a {
+      display: block;
+      }
+      #full-picture {
+        max-height: 300px;
+      overflow: hidden;
+      float: left;}
+      #full-picture img{
+      width:100%;
+      }
